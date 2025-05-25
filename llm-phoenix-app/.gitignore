@@ -1,0 +1,38 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Python-specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+venv/
+*.venv/
+
+# Common editor and OS files
+.DS_Store
+*.log
+*.bak
+*.swp
+*~
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.cache
+nosetests.xml
+pytest_cache/
+
+# Python environment and package manager
+pip-log.txt
+Pipfile.lock
+requirements.txt
+.pypirc
